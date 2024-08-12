@@ -82,20 +82,55 @@ a {
     color: #f9faf8;
     font-weight: 500;
     font-size: 18px;
+    /* on hover make pointer cursor appear */
+    cursor:pointer;
 }
 
 .pimg {
-    background-color: #6d747d;
-    color: #f9faf8;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 256px;
-    min-width: 625px;
-    font-weight: 300;
-    font-size: 18px;
 }
 
+.img {
+    width: 600px;
+    height: auto;
+}
+
+/* information section */
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    padding: 64px;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.box-n-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6d747d;
+    padding-bottom: 64px;
+}
+
+.box {
+    min-width: 200px;
+    min-height: 200px;
+    flex-shrink: 0;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
 
 .quote {
     background-color: #e5e7eb;
